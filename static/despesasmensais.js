@@ -24,8 +24,9 @@ if(variavel1 != null){
   const data1 = {
     labels1,
     datasets:[{
-        backgroundColor: 'rgb(103, 169, 243)',
-        borderColor: 'rgb(21, 60, 234)',
+        backgroundColor: 'rgb(2, 46, 156, 0.8)',
+        borderColor: 'rgb(191, 192, 203, 0.9)',
+        hoverBackgroundColor: 'rgb(133, 195, 250)',
         data: valoresDespesasmensais,
         label: "Despesas Mensais"
     }]
