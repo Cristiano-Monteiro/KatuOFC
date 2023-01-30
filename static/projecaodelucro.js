@@ -26,8 +26,9 @@ if(variavel1 != null){
   const data4 = {
       labels4,
       datasets:[{
-          backgroundColor: 'rgb(103, 169, 243)',
+          backgroundColor: 'rgb(200, 216, 252)',
           borderColor: 'rgb(21, 60, 234)',
+          hoverBackgroundColor: 'rgb(5, 231, 42)',
           data: valoresProjecaodelucro,
           label: "Projeção de lucro"
       }]
