@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/assets/src_page/css_page/dashboard_page_style.css">
     <title>Facilita MEI</title>
-    <script>
-        /* var variavel1 = {{variavel1|safe}};
-        var variavel2 = {{variavel2|safe}}; */
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script> -->
+    <!-- Nova biblioteca de gráficos -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
 </head>
 <body>
     <nav class="barra_navegacao_desktop">
@@ -70,18 +71,18 @@
         </div>
         <div class="graficos_principais">
             <div class="grafico_1 chart">
-                <canvas id="myChart1"></canvas>
+                <div id="myChart1"></div>
             </div>
             <div class="grafico_2 chart">
-                <canvas id="myChart2"></canvas>
+                <div id="myChart2"></div>
             </div>
         </div>
         <div class="graficos_principais">
             <div class="grafico_3 chart">
-                <canvas id="myChart3"></canvas>
+                <div id="myChart3"></div>
             </div>
             <div class="grafico_4 chart">
-                <canvas id="myChart4"></canvas>
+                <div id="myChart4"></div>
             </div>
         </div>
     </div>
@@ -128,12 +129,16 @@
         </div>
     </nav>
     <script src="../static/assets/src_page/js_page/variables_values_input.js"></script>
-    <script src="../static/assets/src_page/js_page/dashboard_page_script.js"></script>
+    <script src="../static/assets/src_page/js_page/dashboard_page_script.js"></script>    
 
-    <script src="../static/despesasmensais.js"></script>
+    <!-- Arquivo com gráficos de exemplos -->
+    <script src="../static/assets/src_page/js_page/charts_examples.js"></script>
+
+    
+<!--     <script src="../static/despesasmensais.js"></script>
 
     <script src="../static/lucroxdespesas.js"></script>
     <script src="../static/despesasporcategoria.js"></script>
-    <script src="../static/projecaodelucro.js"></script>
+    <script src="../static/projecaodelucro.js"></script> -->
 </body>
 </html>
