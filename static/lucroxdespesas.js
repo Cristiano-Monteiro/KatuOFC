@@ -22,12 +22,17 @@ if(variavel1 != null){
           'Despesas',
         ],
       datasets:[{
-         //  borderColor: 'rgb(255, 99, 132)',
+         borderColor: 'rgb(80, 80, 80)',
           data: valoresLucroXDespesas,
           backgroundColor: [
               'rgb(28, 113, 209',
               'rgb(241, 32, 32)',
             ],
+        hoverBorderColor: 'rgb(191, 207, 221)',
+        hoverBackgroundColor: [
+              'rgb(137, 172, 252)',
+              'rgb(249, 89, 89)',
+          ],
             hoverOffset: 4,
           label: "Progressão de vendas"
       }]
